@@ -1,9 +1,12 @@
+body{
+	background-color: #f0e68c;
+}
+
 h1,h2,div{
 	text-align: center;
 	margin-top: 1em;
 }
 .photo{
-	align-items: center;
 	width: 10%;
 	float: right;
 	border-radius: 10%;	
@@ -32,17 +35,8 @@ article{
 	padding: justify;
 	padding-left: 1%;
 }
-body{
-	background-color: #f0e68c;
-}
+
 
 .selection{
 	display: flex;
-	justify-content: space-between;
-	align-self: stretch;
-}
-.nav{
-	flex-direction: row;
-	justify-content: space-between;
-	align-self: stretch;
 }
